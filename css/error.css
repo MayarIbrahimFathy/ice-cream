@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::selection{
+    background-color: #F83D8E;
+    color: #fff;
+}
+main{
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #EFD7EF, #F5F9FC, #F8EAE1, #EAF8F9);
+}
+.btn{
+ background-color: #F83D8E;
+
+}
+h1{
+    font-family:   "Berkshire Swash", serif;
+    font-size: 64px;
+}
+p{
+    color: #646464;
+}
+
