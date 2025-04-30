@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/webfonts/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/shopLayout2.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./images/logo.png" alt="Ice Tales Logo">
+                <h1 class="brand-text ms-2">Icy<span class="second-word">Tales</span></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./home3.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#menu">Menu</a></li>
+                            <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#blog">Latest News</a></li>
+                            <li><a class="dropdown-item" href="#recipes">Recipes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faqs">FAQ's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#search">
+                            <i class="fas fa-search search-icon"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link cart-icon-wrapper" href="#cart">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span class="cart-counter">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a href="#order" class="btn btn-primary">Connect Us →</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+                
+    </nav>
+
+
+    <section class="shop-layout2">
+        <div class="container d-flex justify-content-center align-items-center h-100 text-center">
+            <div>
+                <h1 class="pb-4">Shop Layout 02</h1>
+                <div class="home-shop2 w-50 m-auto">
+                    <a href="#">Home</a> / <a href="">Shop</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="container categories-info my-5">
+        <div class="row m-auto category-width-info">
+            <!-- Sidebar -->
+            <aside class="col-md-3">
+                <!-- Search bar with icon -->
+                <div class="input-group mb-4 ">
+                    <input type="text" class="form-control rounded-5" placeholder="Search">
+                    <span class="input-group-text bg-white rounded-5"><i class="fas fa-search"></i></span>
+                </div>
+
+                <!-- Categories -->
+                <div class="mb-4">
+                    <h5 class="mb-3">Categories</h5>
+                    <ul class="list-unstyled categ-li">
+                        <li class="mb-2">
+                            <input type="radio" name="category" class="form-check-input me-2 ">Canned Ice Cream(3)
+                        </li>
+                        <li class="mb-2">
+                            <input type="radio" name="category" class="form-check-input me-2">Frozen Yogurt(5)
+                        </li>
+                        <li class="mb-2">
+                            <input type="radio" name="category" class="form-check-input me-2">Ice Cream Cakes(3)
+                        </li>
+                        <li class="mb-2">
+                            <input type="radio" name="category" class="form-check-input me-2">Milkshakes(6)
+                        </li>
+                        <li class="mb-2">
+                            <input type="radio" name="category" class="form-check-input me-2">Popsicles(4)
+                        </li>
+                        <li class="mb-2">
+                            <input type="radio" name="category" class="form-check-input me-2">Sundaes(5)
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Filter by Price -->
+                <div class="mb-4 by-price">
+                    <h5 class="mb-3">Filter By Price</h5>
+                    <p class="categ-li">Range: <span>5$ - 50$</span></p>
+                </div>
+
+                <!-- Featured Products -->
+                <div class="feature-product">
+                    <h5 class="mb-3">Featured Products</h5>
+                    <ul class="list-unstyled m-0 p-0">
+                        <li class="d-flex align-items-start mb-3 ">
+                            <div class="img-sec pt-1">
+                                <img src="images/vegan-image2.jpg.png" alt="">
+                            </div>
+                            <div>
+                                <p class="fw-bold mb-1">Almond Joe</p>
+                                <div class="text d-flex">
+                                    <span><del>$9.80</del></span>
+                                    <strong class="ps-2">$4.99</strong>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="d-flex align-items-start mb-3">
+                            <div class="img-sec pt-1">
+                                <img src="images/vegan-image3.jpg.png" alt="">
+                            </div>
+                            <div>
+                                <p class="fw-bold mb-1">Berry Sorbet</p>
+                                <div class="text d-flex">
+                                    <span><del>$9.80</del></span>
+                                    <strong class="ps-2">$4.99</strong>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="d-flex align-items-start mb-3">
+                            <div class="img-sec pt-1">
+                                <img src="images/vegan-image1.jpg.png" alt="">
+                            </div>
+                            <div>
+                                <p class="fw-bold mb-1">Chocolate Chip</p>
+                                <div class="text d-flex">
+                                    <span><del>$9.80</del></span>
+                                    <strong class="ps-2">$4.99</strong>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="d-flex align-items-start">
+                            <div class="img-sec pt-1">
+                                <img src="images/best-image2.jpg.png" alt="">
+                            </div>
+                            <div>
+                                <p class="fw-bold mb-1">Dairy Free</p>
+                                <div class="text d-flex">
+                                    <span><del>$9.80</del></span>
+                                    <strong class="ps-2">$4.99</strong>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </aside>
+
+            <!-- Main Content -->
+            <main class="col-md-9">
+                <!-- Topbar -->
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <div class="d-flex gap-2">
+                        <div class="icon-box active">
+                            <i class="fas fa-th-large"></i>
+                        </div>
+                        <div class="icon-box">
+                            <i class="fas fa-list"></i>
+                        </div>
+                        <p class="mb-0 ms-3 fw-medium text-muted pt-2">Showing 1–18 of 24 results</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+
+                        <select class="form-select w-auto rounded-5">
+                            <option>Default Sorting</option>
+                            <option>Price: Low to High</option>
+                            <option>Price: High to Low</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Product Cards -->
+                <div class="row">
+                    <!-- Single Product -->
+                    <div class="col-lg-4 col-sm-6 mb-4 ">
+                        <div class="card card-info position-relative p-2 border-0 h-100">
+                            <div class="card-img-container ">
+                                <img src="images/vegan-image1.jpg.png" class="card-img-top" alt="Product Image">
+
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="justify-content-between align-items-center">
+                                    <h4 class="card-title fw-bold mb-1">Coconut Milk
+                                        Chocolate Chip
+                                    </h4>
+
+                                    <div class="d-flex align-items-center justify-content-center gap-2">
+                                        <div>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                        </div>
+                                        <span class="fw-bold small ">(4.9/5)</span>
+                                    </div>
+                                </div>
+                                <div class="justify-content-between align-items-center">
+                                    <div class="card-price my-2">
+                                        <span>$5.99</span>
+                                    </div>
+                                    <button class="btn rounded-5 text-white btn-bg fw-semibold">
+                                        Add To Cart <i class="fa-solid fa-arrow-right text-white"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 ">
+                        <div class="card position-relative p-2 border-0 h-100  ">
+                            <div class="card-img-container ">
+                                <img src="images/vegan-image2.jpg.png" class="card-img-top" alt="Product Image">
+
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="justify-content-between align-items-center">
+                                    <h4 class="card-title fw-bold mb-1">Almond Joy <br>
+                                        Sundae
+                                    </h4>
+
+                                    <div class="d-flex align-items-center justify-content-center gap-2">
+                                        <div>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                        </div>
+                                        <span class="fw-bold small ">(4.9/5)</span>
+                                    </div>
+                                </div>
+                                <div class="justify-content-between align-items-center">
+                                    <div class="card-price my-2">
+                                        <span>$6.49</span>
+                                    </div>
+                                    <button class="btn rounded-5 text-white btn-bg fw-semibold">
+                                        Add To Cart <i class="fa-solid fa-arrow-right text-white"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 ">
+                        <div class="card position-relative p-2 border-0 h-100  ">
+                            <div class="card-img-container">
+                                <img src="images/vegan-image3.jpg.png" class="card-img-top" alt="Product Image">
+
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="justify-content-between align-items-center">
+                                    <h4 class="card-title fw-bold mb-1">Berry <br>
+                                        Sorbet
+                                    </h4>
+
+                                    <div class="d-flex align-items-center justify-content-center gap-2">
+                                        <div>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                        </div>
+                                        <span class="fw-bold small ">(4.9/5)</span>
+                                    </div>
+                                </div>
+                                <div class="justify-content-between align-items-center">
+                                    <div class="card-price my-2">
+                                        <span>$4.89</span>
+                                    </div>
+                                    <button class="btn rounded-5 text-white btn-bg fw-semibold">
+                                        Add To Cart <i class="fa-solid fa-arrow-right text-white"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 ">
+                        <div class="card position-relative p-2 border-0 h-100  ">
+                            <div class="card-img-container ">
+                                <img src="images/best-image1.jpg.png" class="card-img-top" alt="Product Image">
+
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="justify-content-between align-items-center">
+                                    <h4 class="card-title fw-bold mb-1">Chocolate <br>
+                                        Fudge
+                                    </h4>
+
+                                    <div class="d-flex align-items-center justify-content-center gap-2">
+                                        <div>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                        </div>
+                                        <span class="fw-bold small ">(4.9/5)</span>
+                                    </div>
+                                </div>
+                                <div class="justify-content-between align-items-center">
+                                    <div class="card-price my-2">
+                                        <span>$5.99</span>
+                                    </div>
+                                    <button class="btn rounded-5 text-white btn-bg fw-semibold">
+                                        Add To Cart <i class="fa-solid fa-arrow-right text-white"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 ">
+                        <div class="card position-relative p-2 border-0 h-100  ">
+                            <div class="card-img-container ">
+                                <img src="images/best-image2.jpg.png" class="card-img-top" alt="Product Image">
+
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="justify-content-between align-items-center">
+                                    <h4 class="card-title fw-bold mb-1">Dairy Free <br>
+                                        Classic
+                                    </h4>
+
+                                    <div class="d-flex align-items-center justify-content-center gap-2">
+                                        <div>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                        </div>
+                                        <span class="fw-bold small ">(4.9/5)</span>
+                                    </div>
+                                </div>
+                                <div class="justify-content-between align-items-center">
+                                    <div class="card-price my-2">
+                                        <span>$6.49</span>
+                                    </div>
+                                    <button class="btn rounded-5 text-white btn-bg fw-semibold">
+                                        Add To Cart <i class="fa-solid fa-arrow-right text-white"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 ">
+                        <div class="card position-relative p-2 border-0 h-100 ">
+                            <div class="card-img-container ">
+                                <img src="images/best-image3.jpg.png" class="card-img-top" alt="Product Image">
+
+                            </div>
+                            <div class="card-body text-center">
+                                <div class="justify-content-between align-items-center">
+                                    <h4 class="card-title fw-bold mb-1">Dairy Free <br>
+                                        Almond
+                                    </h4>
+
+                                    <div class="d-flex align-items-center justify-content-center gap-2">
+                                        <div>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                            <i class="fas fa-star " style="color: #FBAB2A; font-size: 12px;"></i>
+                                        </div>
+                                        <span class="fw-bold small ">(4.9/5)</span>
+                                    </div>
+                                </div>
+                                <div class="justify-content-between align-items-center">
+                                    <div class="card-price my-2">
+                                        <span>$4.89</span>
+                                    </div>
+                                    <button class="btn rounded-5 text-white btn-bg fw-semibold">
+                                        Add To Cart <i class="fa-solid fa-arrow-right text-white"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- More cards go here by copying -->
+
+                </div>
+
+                <!-- Pagination -->
+                <nav class="d-flex justify-content-center mt-5 ">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="shopLayout1.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="shopLayout2.html">2</a></li>
+                        <li class="page-item " aria-current="page"><a class="page-link" href="shopLayout3.html">3</a></li>
+                        <li class="page-item active fw-bold"><a class="page-link" href="special-offers.html"> > </a></li>
+                    </ul>
+                </nav>
+            </main>
+        </div>
+    </section>
+
+
+    <footer class="footer position-relative">
+        <div class="footer-side-img">
+            <img src="./images/banner-lefttopimage.png.png" alt="Our Ice Cream Making Process">
+        </div>
+        <div class="container">
+            <!-- Side Image -->
+
+
+            <div class="row gy-4">
+                <!-- Logo and Brand Column -->
+                <div class="col-lg-3 col-md-6">
+                    <a class="footer-brand d-flex align-items-center mb-4" href="#">
+                        <img src="images/logof.png" alt="Ice Tales Logo" class="footer-logo">
+                        <h1 class="brand-text ms-2">Icy<span class="second-word">Tales</span></h1>
+                    </a>
+                </div>
+
+                <!-- Navigation Links Column -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="footer-title">Navigation</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="footer-links">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#shop">Shop</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="footer-links">
+                                <li><a href="#products">Products</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#content">Content</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Info Column -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="footer-title">Contact Info</h5>
+                    <div class="contact-info">
+                        <div class="mb-4 d-flex align-items-start">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="ms-3">
+                                <strong>Address:</strong>
+                                <span class="text-light-gray">121 King Street Melbourne, 3000, Australia</span>
+                            </div>
+                        </div>
+                        <div class="mb-4 d-flex align-items-start">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="ms-3">
+                                <strong>Email:</strong>
+                                <span class="text-light-gray">info@example.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone Number and Social Icons Column -->
+                <div class="col-lg-2 col-md-6">
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="ms-3">
+                            <strong>+123456780123</strong><br>
+                            <span class="text-light-gray">Got Questions? Call us 24/7</span>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom mt-5">
+                <div class="text-center">
+                    <p>&copy; 2024 IcyTales. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
